@@ -1,10 +1,10 @@
 package org.husonlab.fmhdist.util;
 
+import jloda.util.FileUtils;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-import jloda.util.FileUtils;
 
 /**
  * Iterator that produces k-mers of a fixed size for a given FASTA file. This

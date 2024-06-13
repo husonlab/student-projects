@@ -1,19 +1,7 @@
 package org.husonlab.fmhdist.cmd;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.logging.Logger;
-import java.util.stream.Collectors;
-
+import jloda.thirdparty.HexUtils;
+import jloda.util.FileLineIterator;
 import org.husonlab.fmhdist.db.ReferenceDatabase;
 import org.husonlab.fmhdist.sketch.Distance;
 import org.husonlab.fmhdist.sketch.FracMinHashSketch;
@@ -21,12 +9,18 @@ import org.husonlab.fmhdist.sketch.GenomeSketch;
 import org.husonlab.fmhdist.sketch.IncompatibleParameterException;
 import org.husonlab.fmhdist.util.HashFunctionParser;
 import org.sqlite.SQLiteException;
-
-import jloda.thirdparty.HexUtils;
-import jloda.util.FileLineIterator;
 import splitstree6.data.DistancesBlock;
 import splitstree6.data.TaxaBlock;
 import splitstree6.io.writers.distances.NexusWriter;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.sql.SQLException;
+import java.util.*;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 /**
  * Calculates the distances to the closest genomes in a reference database

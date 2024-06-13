@@ -1,11 +1,11 @@
 package org.husonlab.fmhdist.sketch;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.List;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class SequenceGrouperTests {
 	@Test

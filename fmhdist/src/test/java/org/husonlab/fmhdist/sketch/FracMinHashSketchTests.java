@@ -1,21 +1,18 @@
 package org.husonlab.fmhdist.sketch;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasItems;
-import static org.hamcrest.Matchers.not;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
+import net.openhft.hashing.LongHashFunction;
 import org.husonlab.fmhdist.util.KMerCoordinates;
 import org.husonlab.fmhdist.util.KMerIterator;
 import org.husonlab.fmhdist.util.experimental.FastKMerIterator;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import net.openhft.hashing.LongHashFunction;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 
 public class FracMinHashSketchTests {
 	class TestKMerIterator implements KMerIterator {

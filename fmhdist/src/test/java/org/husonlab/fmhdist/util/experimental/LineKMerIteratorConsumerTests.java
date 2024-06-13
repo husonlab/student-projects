@@ -1,10 +1,9 @@
 package org.husonlab.fmhdist.util.experimental;
 
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.contains;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasSize;
+import org.husonlab.fmhdist.util.KMerIterator;
+import org.junit.Ignore;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -12,9 +11,8 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import org.husonlab.fmhdist.util.KMerIterator;
-import org.junit.Ignore;
-import org.junit.Test;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 
 
 public class LineKMerIteratorConsumerTests {

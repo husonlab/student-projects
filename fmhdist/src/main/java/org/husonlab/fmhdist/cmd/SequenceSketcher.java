@@ -1,5 +1,14 @@
 package org.husonlab.fmhdist.cmd;
 
+import jloda.thirdparty.HexUtils;
+import jloda.util.FileLineIterator;
+import jloda.util.ProgramExecutorService;
+import jloda.util.Single;
+import net.openhft.hashing.LongHashFunction;
+import org.husonlab.fmhdist.ncbi.Genome;
+import org.husonlab.fmhdist.sketch.GenomeSketch;
+import org.husonlab.fmhdist.util.KMerCoordinates;
+
 import java.io.FileWriter;
 import java.nio.file.Paths;
 import java.util.List;
@@ -10,16 +19,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-
-import org.husonlab.fmhdist.ncbi.Genome;
-import org.husonlab.fmhdist.sketch.GenomeSketch;
-import org.husonlab.fmhdist.util.KMerCoordinates;
-
-import jloda.util.ProgramExecutorService;
-import jloda.thirdparty.HexUtils;
-import jloda.util.FileLineIterator;
-import jloda.util.Single;
-import net.openhft.hashing.LongHashFunction;
 
 /**
  * Class to calculate the FracMinHash sketches of the given input genomes.

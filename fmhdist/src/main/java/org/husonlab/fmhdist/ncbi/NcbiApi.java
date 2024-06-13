@@ -1,36 +1,22 @@
 package org.husonlab.fmhdist.ncbi;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Queue;
-import java.util.logging.Logger;
-
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.api.GenomeApi;
-import org.openapitools.client.api.TaxonomyApi;
-import org.openapitools.client.model.V2AssemblyLinksReply;
-import org.openapitools.client.model.V2AssemblyLinksReplyAssemblyLink;
-import org.openapitools.client.model.V2AssemblyLinksReplyAssemblyLinkType;
-import org.openapitools.client.model.V2TaxonomyMatch;
-import org.openapitools.client.model.V2TaxonomyMetadataRequestContentType;
-import org.openapitools.client.model.V2TaxonomyMetadataResponse;
-import org.openapitools.client.model.V2reportsAssemblyDataReport;
-import org.openapitools.client.model.V2reportsAssemblyDataReportPage;
-
 import com.google.common.collect.Lists;
 import com.google.common.graph.GraphBuilder;
 import com.google.common.graph.MutableGraph;
-
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import org.openapitools.client.ApiClient;
+import org.openapitools.client.ApiException;
+import org.openapitools.client.api.GenomeApi;
+import org.openapitools.client.api.TaxonomyApi;
+import org.openapitools.client.model.*;
+
+import java.io.IOException;
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.logging.Logger;
 
 public class NcbiApi {
 	private ApiClient client;

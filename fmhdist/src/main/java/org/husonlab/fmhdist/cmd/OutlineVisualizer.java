@@ -1,18 +1,5 @@
 package org.husonlab.fmhdist.cmd;
 
-import java.awt.Color;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.util.ArrayList;
-import java.util.BitSet;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.logging.Logger;
-
-import org.jfree.svg.SVGGraphics2D;
-import org.jfree.svg.SVGHints;
-
 import javafx.geometry.Point2D;
 import jloda.graph.Edge;
 import jloda.graph.Node;
@@ -21,12 +8,24 @@ import jloda.phylo.PhyloSplitsGraph;
 import jloda.util.FileLineIterator;
 import jloda.util.parse.NexusStreamParser;
 import jloda.util.progress.ProgressSilent;
+import org.jfree.svg.SVGGraphics2D;
+import org.jfree.svg.SVGHints;
 import splitstree6.algorithms.distances.distances2splits.NeighborNet;
 import splitstree6.data.DistancesBlock;
 import splitstree6.data.SplitsBlock;
 import splitstree6.data.TaxaBlock;
 import splitstree6.io.readers.NexusImporter;
 import splitstree6.layout.splits.algorithms.PhylogeneticOutline;
+
+import java.awt.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.BitSet;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Logger;
 
 /**
  * Class to create an SVG of a phylogenetic outline.

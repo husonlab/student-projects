@@ -1,11 +1,10 @@
 package org.husonlab.fmhdist.cmd;
 
-import org.husonlab.fmhdist.util.HashFunctionParser;
-
 import jloda.fx.util.ArgsOptions;
 import jloda.util.ProgramExecutorService;
 import jloda.util.UsageException;
 import net.openhft.hashing.LongHashFunction;
+import org.husonlab.fmhdist.util.HashFunctionParser;
 
 public class Main {
 	private final static String CREATE_DB_COMMAND = "db";

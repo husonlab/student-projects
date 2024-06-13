@@ -1,13 +1,12 @@
 package org.husonlab.fmhdist.util.experimental;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.stream.Collectors;
-
+import jloda.util.FileLineIterator;
 import org.husonlab.fmhdist.util.KMerCoordinates;
 import org.husonlab.fmhdist.util.KMerIterator;
 
-import jloda.util.FileLineIterator;
+import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class InMemoryKMerIterator implements KMerIterator {
 	private static boolean[] isLineContainingSkippableChar = new boolean[128];

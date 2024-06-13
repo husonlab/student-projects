@@ -1,5 +1,15 @@
 package org.husonlab.fmhdist.cmd;
 
+import jloda.util.FileLineIterator;
+import jloda.util.ProgramExecutorService;
+import jloda.util.Single;
+import net.openhft.hashing.LongHashFunction;
+import org.husonlab.fmhdist.db.ReferenceDatabase;
+import org.husonlab.fmhdist.ncbi.Genome;
+import org.husonlab.fmhdist.ncbi.NcbiApi;
+import org.husonlab.fmhdist.ncbi.TaxonomyTree;
+import org.husonlab.fmhdist.sketch.GenomeSketch;
+
 import java.io.File;
 import java.util.List;
 import java.util.Queue;
@@ -9,17 +19,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-
-import org.husonlab.fmhdist.db.ReferenceDatabase;
-import org.husonlab.fmhdist.ncbi.Genome;
-import org.husonlab.fmhdist.ncbi.NcbiApi;
-import org.husonlab.fmhdist.ncbi.TaxonomyTree;
-import org.husonlab.fmhdist.sketch.GenomeSketch;
-
-import jloda.util.ProgramExecutorService;
-import jloda.util.FileLineIterator;
-import jloda.util.Single;
-import net.openhft.hashing.LongHashFunction;
 
 /**
  * Class to create a reference database given a set of NCBI accession codes.

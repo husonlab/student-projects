@@ -1,13 +1,12 @@
 package org.husonlab.fmhdist.sketch;
 
-import java.io.IOException;
-import java.util.logging.Logger;
-
+import net.openhft.hashing.LongHashFunction;
 import org.husonlab.fmhdist.ncbi.Genome;
 import org.husonlab.fmhdist.util.KMerIterator;
 import org.husonlab.fmhdist.util.LineKMerIterator;
 
-import net.openhft.hashing.LongHashFunction;
+import java.io.IOException;
+import java.util.logging.Logger;
 
 /**
  * Composite to connect a sketch to a given genome.

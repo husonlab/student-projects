@@ -1,17 +1,16 @@
 package org.husonlab.fmhdist.sketch;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.TreeSet;
-
-import org.husonlab.fmhdist.util.KMerCoordinates;
-import org.husonlab.fmhdist.util.KMerIterator;
-
 import jloda.seq.SequenceUtils;
 import jloda.util.ByteInputBuffer;
 import jloda.util.ByteOutputBuffer;
 import net.openhft.hashing.LongHashFunction;
+import org.husonlab.fmhdist.util.KMerCoordinates;
+import org.husonlab.fmhdist.util.KMerIterator;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.TreeSet;
 
 
 /**

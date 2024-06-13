@@ -1,13 +1,12 @@
 package org.husonlab.fmhdist.util.experimental;
 
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-
+import jloda.util.FileUtils;
 import org.husonlab.fmhdist.util.KMerCoordinates;
 import org.husonlab.fmhdist.util.KMerIterator;
 
-import jloda.util.FileUtils;
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * Iterator to extract all valid k-mers from a fasta file (raw, zipped or

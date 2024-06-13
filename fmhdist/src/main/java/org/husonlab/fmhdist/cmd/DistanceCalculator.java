@@ -1,5 +1,13 @@
 package org.husonlab.fmhdist.cmd;
 
+import jloda.thirdparty.HexUtils;
+import jloda.util.FileLineIterator;
+import org.husonlab.fmhdist.sketch.Distance;
+import org.husonlab.fmhdist.sketch.FracMinHashSketch;
+import splitstree6.data.DistancesBlock;
+import splitstree6.data.TaxaBlock;
+import splitstree6.io.writers.distances.NexusWriter;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,15 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-
-import org.husonlab.fmhdist.sketch.Distance;
-import org.husonlab.fmhdist.sketch.FracMinHashSketch;
-
-import jloda.thirdparty.HexUtils;
-import jloda.util.FileLineIterator;
-import splitstree6.data.DistancesBlock;
-import splitstree6.data.TaxaBlock;
-import splitstree6.io.writers.distances.NexusWriter;
 
 /**
  * Class to calculate the evolutionary distances based on input sketches.

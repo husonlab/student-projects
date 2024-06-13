@@ -1,5 +1,14 @@
 package org.husonlab.fmhdist.db;
 
+import jloda.thirdparty.HexUtils;
+import org.husonlab.fmhdist.ncbi.Genome;
+import org.husonlab.fmhdist.ncbi.Taxon;
+import org.husonlab.fmhdist.ncbi.TaxonomyTree;
+import org.husonlab.fmhdist.sketch.FracMinHashSketch;
+import org.husonlab.fmhdist.sketch.GenomeSketch;
+import org.sqlite.SQLiteConfig;
+import org.sqlite.SQLiteException;
+
 import java.io.Closeable;
 import java.io.IOException;
 import java.sql.Connection;
@@ -11,16 +20,6 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
-
-import org.husonlab.fmhdist.ncbi.Genome;
-import org.husonlab.fmhdist.ncbi.Taxon;
-import org.husonlab.fmhdist.ncbi.TaxonomyTree;
-import org.husonlab.fmhdist.sketch.FracMinHashSketch;
-import org.husonlab.fmhdist.sketch.GenomeSketch;
-import org.sqlite.SQLiteConfig;
-import org.sqlite.SQLiteException;
-
-import jloda.thirdparty.HexUtils;
 
 public class ReferenceDatabase implements Closeable {
 	private Connection connection;

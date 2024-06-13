@@ -1,14 +1,14 @@
 package org.husonlab.fmhdist.ncbi;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
+import org.openapitools.client.ApiException;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.Test;
-import org.openapitools.client.ApiException;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class NcbiApiTests {
 	@Test

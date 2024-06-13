@@ -1,9 +1,9 @@
 package org.husonlab.fmhdist.util;
 
+import net.openhft.hashing.LongHashFunction;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import net.openhft.hashing.LongHashFunction;
 
 
 public class HashFunctionParser {

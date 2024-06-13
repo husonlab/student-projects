@@ -1,11 +1,11 @@
 package org.husonlab.fmhdist.db;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.Test;
 
 import java.io.File;
 import java.sql.SQLException;
 
-import org.junit.Test;
+import static org.junit.Assert.assertTrue;
 
 public class ReferenceDatabaseTests {
 	@Test

@@ -1,12 +1,12 @@
 package org.husonlab.fmhdist.ncbi;
 
+import com.google.common.graph.Graph;
+import com.google.common.graph.Graphs;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import com.google.common.graph.Graph;
-import com.google.common.graph.Graphs;
 
 public class TaxonomyTree {
 	private Graph<Taxon> tree;

@@ -1,17 +1,16 @@
 package org.husonlab.fmhdist.sketch;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
+import net.openhft.hashing.LongHashFunction;
+import org.husonlab.fmhdist.util.experimental.FastKMerIterator;
+import org.junit.Ignore;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.husonlab.fmhdist.util.experimental.FastKMerIterator;
-import org.junit.Ignore;
-import org.junit.Test;
-
-import net.openhft.hashing.LongHashFunction;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalTo;
 
 public class DistanceTests {
 	@Test

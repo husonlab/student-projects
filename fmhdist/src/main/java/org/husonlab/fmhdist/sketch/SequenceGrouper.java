@@ -1,10 +1,10 @@
 package org.husonlab.fmhdist.sketch;
 
+import jloda.util.FileLineIterator;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import jloda.util.FileLineIterator;
 
 public class SequenceGrouper {
 	private int group;
