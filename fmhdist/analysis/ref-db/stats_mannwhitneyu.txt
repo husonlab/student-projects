@@ -1,0 +1,704 @@
+
+
+ GCA_000439335.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 61
+windows with excpected density: 61
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.11699682265528427
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_000443045.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 727
+windows with excpected density: 727
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.027188804060073214
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_000468175.2/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 1922
+windows with excpected density: 1922
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.037972556417388496
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_000500205.2/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2438
+windows with excpected density: 2438
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.008906849233358322
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_000500225.2/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 1492
+windows with excpected density: 1492
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.01388609214798487
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_000687305.2/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4951
+windows with excpected density: 4917
+windows with unexpected density: 34
+windows are not overlapping
+correlation of window density vs complexity r=0.16611131785000144
+Mann-Whitney-Test: z=586.0, p=1.63284513823774e-23
+
+
+ GCA_001314345.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2908
+windows with excpected density: 2908
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.03566260020710336
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_001314375.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3754
+windows with excpected density: 3754
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.014432179838016255
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_001314425.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3594
+windows with excpected density: 3594
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.0038071731153654764
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_002215365.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2738
+windows with excpected density: 2738
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.02552457001413905
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_002812785.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2676
+windows with excpected density: 2676
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.002731478834173978
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_007655245.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4976
+windows with excpected density: 4916
+windows with unexpected density: 60
+windows are not overlapping
+correlation of window density vs complexity r=0.161745814636391
+Mann-Whitney-Test: z=2423.0, p=2.706931289869096e-39
+
+
+ GCA_008079305.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 15371
+windows with excpected density: 15151
+windows with unexpected density: 220
+windows are not overlapping
+correlation of window density vs complexity r=0.23899995044262148
+Mann-Whitney-Test: z=31064.5, p=2.9029171872858775e-138
+
+
+ GCA_008080845.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3921
+windows with excpected density: 3909
+windows with unexpected density: 12
+windows are not overlapping
+correlation of window density vs complexity r=0.16930385097985454
+Mann-Whitney-Test: z=584.0, p=5.195274844967987e-09
+
+
+ GCA_009729435.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 9314
+windows with excpected density: 9253
+windows with unexpected density: 61
+windows are not overlapping
+correlation of window density vs complexity r=0.138910123956219
+Mann-Whitney-Test: z=9175.0, p=6.84766761254207e-39
+
+
+ GCA_011320135.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 26688
+windows with excpected density: 26251
+windows with unexpected density: 437
+windows are not overlapping
+correlation of window density vs complexity r=0.24461092910188606
+Mann-Whitney-Test: z=180086.0, p=4.557514131524116e-265
+
+
+ GCA_011947325.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 6548
+windows with excpected density: 6464
+windows with unexpected density: 84
+windows are not overlapping
+correlation of window density vs complexity r=0.2809330789750116
+Mann-Whitney-Test: z=5098.5, p=5.120648063936496e-54
+
+
+ GCA_011947335.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7631
+windows with excpected density: 7575
+windows with unexpected density: 56
+windows are not overlapping
+correlation of window density vs complexity r=0.2303585267758799
+Mann-Whitney-Test: z=3508.0, p=5.9579614326871375e-37
+
+
+ GCA_011947345.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 8237
+windows with excpected density: 8145
+windows with unexpected density: 92
+windows are not overlapping
+correlation of window density vs complexity r=0.20953347329915126
+Mann-Whitney-Test: z=8577.5, p=1.3135943781907174e-58
+
+
+ GCA_011947355.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5002
+windows with excpected density: 4951
+windows with unexpected density: 51
+windows are not overlapping
+correlation of window density vs complexity r=0.22516715185567865
+Mann-Whitney-Test: z=2396.5, p=1.4980320384896706e-33
+
+
+ GCA_012295415.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2525
+windows with excpected density: 2525
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.06246340020049812
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_012295475.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 602
+windows with excpected density: 602
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.052982570631056845
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_012656075.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 8253
+windows with excpected density: 8021
+windows with unexpected density: 232
+windows are not overlapping
+correlation of window density vs complexity r=0.34925748355691927
+Mann-Whitney-Test: z=17987.0, p=1.778290368712454e-143
+
+
+ GCA_012656105.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7178
+windows with excpected density: 7095
+windows with unexpected density: 83
+windows are not overlapping
+correlation of window density vs complexity r=0.23943022805002023
+Mann-Whitney-Test: z=5617.5, p=1.9745814769751717e-53
+
+
+ GCA_014706105.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7118
+windows with excpected density: 6856
+windows with unexpected density: 262
+windows are not overlapping
+correlation of window density vs complexity r=0.2485750578015107
+Mann-Whitney-Test: z=59409.0, p=1.3954523179880001e-145
+
+
+ GCA_014706115.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 6928
+windows with excpected density: 6633
+windows with unexpected density: 295
+windows are not overlapping
+correlation of window density vs complexity r=0.22815080726465536
+Mann-Whitney-Test: z=43430.5, p=2.889098708223603e-170
+
+
+ GCA_014706125.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7305
+windows with excpected density: 7084
+windows with unexpected density: 221
+windows are not overlapping
+correlation of window density vs complexity r=0.03254968033031728
+Mann-Whitney-Test: z=35095.0, p=1.4425823783417164e-129
+
+
+ GCA_014706135.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7539
+windows with excpected density: 7316
+windows with unexpected density: 223
+windows are not overlapping
+correlation of window density vs complexity r=0.45247510121857715
+Mann-Whitney-Test: z=17186.0, p=2.660926642373572e-137
+
+
+ GCA_014706145.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7433
+windows with excpected density: 7123
+windows with unexpected density: 310
+windows are not overlapping
+correlation of window density vs complexity r=0.15817191100168387
+Mann-Whitney-Test: z=67520.5, p=7.915274563351542e-173
+
+
+ GCA_016169955.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 8337
+windows with excpected density: 8275
+windows with unexpected density: 62
+windows are not overlapping
+correlation of window density vs complexity r=0.1547670454123635
+Mann-Whitney-Test: z=8252.0, p=1.7134924019103527e-39
+
+
+ GCA_016864655.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 6501
+windows with excpected density: 6493
+windows with unexpected density: 8
+windows are not overlapping
+correlation of window density vs complexity r=0.006939770286830343
+Mann-Whitney-Test: z=296.0, p=1.3003000839785471e-06
+
+
+ GCA_016880985.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4468
+windows with excpected density: 4468
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.017860509343221725
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_018691715.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 10799
+windows with excpected density: 10771
+windows with unexpected density: 28
+windows are not overlapping
+correlation of window density vs complexity r=-0.09331522480054356
+Mann-Whitney-Test: z=3720.0, p=4.3766199707591175e-19
+
+
+ GCA_018806915.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 9197
+windows with excpected density: 9060
+windows with unexpected density: 137
+windows are not overlapping
+correlation of window density vs complexity r=0.1783105669228016
+Mann-Whitney-Test: z=38087.0, p=1.4963737099445878e-79
+
+
+ GCA_018873745.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3200
+windows with excpected density: 3200
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.015463920379726442
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_019155715.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3414
+windows with excpected density: 3414
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.015849864916208475
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_020800215.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5671
+windows with excpected density: 5620
+windows with unexpected density: 51
+windows are not overlapping
+correlation of window density vs complexity r=0.1791025059491832
+Mann-Whitney-Test: z=4882.5, p=1.2873061194138608e-32
+
+
+ GCA_023611945.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5115
+windows with excpected density: 4946
+windows with unexpected density: 169
+windows are not overlapping
+correlation of window density vs complexity r=0.17864646310865517
+Mann-Whitney-Test: z=10634.5, p=3.01032804497082e-103
+
+
+ GCA_024211575.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 10456
+windows with excpected density: 10359
+windows with unexpected density: 97
+windows are not overlapping
+correlation of window density vs complexity r=0.1957579998903744
+Mann-Whitney-Test: z=20345.0, p=1.1426657122610612e-59
+
+
+ GCA_024679045.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2994
+windows with excpected density: 2994
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.0288921189227038
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_024679075.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 1909
+windows with excpected density: 1909
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.04222772040993698
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_024679115.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2148
+windows with excpected density: 2148
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.01767045857770713
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_024679135.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2392
+windows with excpected density: 2392
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.023939329545499332
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_024679175.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 854
+windows with excpected density: 854
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.014170743041246332
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_024679225.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2857
+windows with excpected density: 2857
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.014200846134611983
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_024679275.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 1009
+windows with excpected density: 1009
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.02597538190701542
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_024679295.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 877
+windows with excpected density: 877
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.014781007037927847
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_025722995.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5687
+windows with excpected density: 5578
+windows with unexpected density: 109
+windows are not overlapping
+correlation of window density vs complexity r=0.21331068644065757
+Mann-Whitney-Test: z=23970.5, p=3.9572335454235205e-61
+
+
+ GCA_030027945.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4630
+windows with excpected density: 4579
+windows with unexpected density: 51
+windows are not overlapping
+correlation of window density vs complexity r=0.04973156918505642
+Mann-Whitney-Test: z=2432.5, p=2.099041249848616e-33
+
+
+ GCA_030267725.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3462
+windows with excpected density: 3462
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.0023781293675113648
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_030267785.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4841
+windows with excpected density: 4841
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.000777302160283222
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_030324255.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7774
+windows with excpected density: 7379
+windows with unexpected density: 395
+windows are not overlapping
+correlation of window density vs complexity r=0.3854330919409122
+Mann-Whitney-Test: z=78063.0, p=4.448394464035105e-221
+
+
+ GCA_030463285.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2243
+windows with excpected density: 2243
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.0025253349335670576
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_031305395.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4760
+windows with excpected density: 4619
+windows with unexpected density: 141
+windows are not overlapping
+correlation of window density vs complexity r=0.21447043535996013
+Mann-Whitney-Test: z=9332.0, p=3.367992687229432e-86
+
+
+ GCA_032158285.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7256
+windows with excpected density: 7153
+windows with unexpected density: 103
+windows are not overlapping
+correlation of window density vs complexity r=0.3110852808340309
+Mann-Whitney-Test: z=17233.0, p=3.851077275012555e-62
+
+
+ GCA_032432875.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5241
+windows with excpected density: 5241
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=0.003246233347354095
+at least one observation was empty, no Mann-Whitney-Test performed
+
+
+ GCA_033557915.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 10896
+windows with excpected density: 10330
+windows with unexpected density: 566
+windows are not overlapping
+correlation of window density vs complexity r=0.34958434439661773
+Mann-Whitney-Test: z=178552.5, p=1.53951398977486e-310
+
+
+ GCA_033557925.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 15079
+windows with excpected density: 14747
+windows with unexpected density: 332
+windows are not overlapping
+correlation of window density vs complexity r=0.22465142286118445
+Mann-Whitney-Test: z=242342.5, p=5.658931383784381e-174
+
+
+ GCA_033557995.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7920
+windows with excpected density: 7717
+windows with unexpected density: 203
+windows are not overlapping
+correlation of window density vs complexity r=0.23122359168675768
+Mann-Whitney-Test: z=57354.0, p=7.719032709381992e-113
+
+
+ GCA_033558005.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 6456
+windows with excpected density: 6077
+windows with unexpected density: 379
+windows are not overlapping
+correlation of window density vs complexity r=0.23639775017166775
+Mann-Whitney-Test: z=143692.5, p=2.806816231530055e-180
+
+
+ GCA_033558025.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 8562
+windows with excpected density: 8373
+windows with unexpected density: 189
+windows are not overlapping
+correlation of window density vs complexity r=0.10927459250596898
+Mann-Whitney-Test: z=55262.5, p=2.505802354185113e-106
+
+
+ GCF_000142945.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 11173
+windows with excpected density: 11136
+windows with unexpected density: 37
+windows are not overlapping
+correlation of window density vs complexity r=0.183007604082977
+Mann-Whitney-Test: z=6904.5, p=2.835226004890003e-24
+
+
+ GCF_000149755.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7339
+windows with excpected density: 7265
+windows with unexpected density: 74
+windows are not overlapping
+correlation of window density vs complexity r=0.15697330898141648
+Mann-Whitney-Test: z=5092.0, p=6.51337451038802e-48
+
+
+ GCF_000247585.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2529
+windows with excpected density: 2529
+windows with unexpected density: 0
+windows are not overlapping
+correlation of window density vs complexity r=-0.004167619291945707
+at least one observation was empty, no Mann-Whitney-Test performed

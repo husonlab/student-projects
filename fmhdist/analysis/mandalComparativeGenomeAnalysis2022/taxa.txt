@@ -1,0 +1,43 @@
+Phytophthora agathidicida
+Phytophthora aleatoria
+Phytophthora cactorum
+Phytophthora cambivora
+Phytophthora capsici
+Phytophthora chlamydospora
+Phytophthora cinnamomi
+Phytophthora colocasiae
+Phytophthora cryptogea
+Phytophthora fragariae
+Phytophthora gonapodyides
+Phytophthora idaei
+Phytophthora infestans
+Phytophthora infestans T30-4
+Phytophthora kernoviae
+Phytophthora kernoviae 00238/432
+Phytophthora kernoviae 00629/1
+Phytophthora kernoviae 00844/4
+Phytophthora lateralis
+Phytophthora lateralis MPF4
+Phytophthora lateralis MPF6
+Phytophthora lateralis SMST21
+Phytophthora litchii
+Phytophthora megakarya
+Phytophthora multivora
+Phytophthora nicotianae
+Phytophthora palmivora
+Phytophthora palmivora var. palmivora
+Phytophthora parasitica
+Phytophthora parasitica INRA-310
+Phytophthora pinifolia
+Phytophthora pisi
+Phytophthora plurivora
+Phytophthora pluvialis
+Phytophthora pseudosyringae
+Phytophthora ramorum
+Phytophthora rubi
+Phytophthora sojae
+Phytophthora syringae
+Phytophthora taxon totara
+Phytophthora x alni
+Phytophthora boehmeriae
+Phytophthora pseudosyringae

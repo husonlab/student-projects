@@ -1,0 +1,7 @@
+GCA_001314365.1.fna vs GCA_008974285.1.fna is empty
+GCA_001314365.1.fna vs GCA_014858625.1.fna is empty
+GCA_001314365.1.fna vs GCA_018394375.1.fna is empty
+GCA_008974285.1.fna vs GCA_014858625.1.fna is empty
+GCA_008974285.1.fna vs GCF_000142945.1.fna is empty
+GCA_014858625.1.fna vs GCA_018394375.1.fna is empty
+GCA_018394375.1.fna vs GCF_000142945.1.fna is empty

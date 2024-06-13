@@ -1,0 +1,896 @@
+
+
+ GCA_000439335.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 61
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  1 |
+| high complexity |                    0 |                 60 |
+windows are not overlapping
+correlation of window density vs complexity r=0.11699682265528427
+at least one observation was empty, no χ2 performed
+
+
+ GCA_000443045.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 727
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  0 |
+| high complexity |                    0 |                727 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.027188804060073214
+at least one observation was empty, no χ2 performed
+
+
+ GCA_000468175.2/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 1922
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  0 |
+| high complexity |                    0 |               1922 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.037972556417388496
+at least one observation was empty, no χ2 performed
+
+
+ GCA_000500205.2/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2438
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  4 |
+| high complexity |                    0 |               2434 |
+windows are not overlapping
+correlation of window density vs complexity r=0.008906849233358322
+at least one observation was empty, no χ2 performed
+
+
+ GCA_000500225.2/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 1492
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  0 |
+| high complexity |                    0 |               1492 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.01388609214798487
+at least one observation was empty, no χ2 performed
+
+
+ GCA_000687305.2/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4951
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   34 |                 95 |
+| high complexity |                    0 |               4822 |
+windows are not overlapping
+correlation of window density vs complexity r=0.16611131785000144
+at least one observation was empty, no χ2 performed
+
+
+ GCA_001314345.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2908
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  2 |
+| high complexity |                    0 |               2906 |
+windows are not overlapping
+correlation of window density vs complexity r=0.03566260020710336
+at least one observation was empty, no χ2 performed
+
+
+ GCA_001314375.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3754
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  3 |
+| high complexity |                    0 |               3751 |
+windows are not overlapping
+correlation of window density vs complexity r=0.014432179838016255
+at least one observation was empty, no χ2 performed
+
+
+ GCA_001314425.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3594
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  3 |
+| high complexity |                    0 |               3591 |
+windows are not overlapping
+correlation of window density vs complexity r=0.0038071731153654764
+at least one observation was empty, no χ2 performed
+
+
+ GCA_002215365.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2738
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                 12 |
+| high complexity |                    0 |               2726 |
+windows are not overlapping
+correlation of window density vs complexity r=0.02552457001413905
+at least one observation was empty, no χ2 performed
+
+
+ GCA_002812785.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2676
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                 11 |
+| high complexity |                    0 |               2665 |
+windows are not overlapping
+correlation of window density vs complexity r=0.002731478834173978
+at least one observation was empty, no χ2 performed
+
+
+ GCA_007655245.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4976
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   60 |                489 |
+| high complexity |                    0 |               4427 |
+windows are not overlapping
+correlation of window density vs complexity r=0.161745814636391
+at least one observation was empty, no χ2 performed
+
+
+ GCA_008079305.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 15371
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  219 |               2195 |
+| high complexity |                    1 |              12956 |
+windows are not overlapping
+correlation of window density vs complexity r=0.23899995044262148
+χ2(1, N=15371)=1178.681799618307, p=2.620434726717629e-258
+
+
+ GCA_008080845.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3921
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   11 |                188 |
+| high complexity |                    1 |               3721 |
+windows are not overlapping
+correlation of window density vs complexity r=0.16930385097985454
+χ2(1, N=3921)=169.74308184780793, p=8.41938205103428e-39
+
+
+ GCA_009729435.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 9314
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   60 |                869 |
+| high complexity |                    1 |               8384 |
+windows are not overlapping
+correlation of window density vs complexity r=0.138910123956219
+χ2(1, N=9314)=524.3432335927522, p=4.8042034396236735e-116
+
+
+ GCA_011320135.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 26688
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  437 |               6053 |
+| high complexity |                    0 |              20198 |
+windows are not overlapping
+correlation of window density vs complexity r=0.24461092910188606
+at least one observation was empty, no χ2 performed
+
+
+ GCA_011947325.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 6548
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   84 |                687 |
+| high complexity |                    0 |               5777 |
+windows are not overlapping
+correlation of window density vs complexity r=0.2809330789750116
+at least one observation was empty, no χ2 performed
+
+
+ GCA_011947335.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7631
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   56 |                373 |
+| high complexity |                    0 |               7202 |
+windows are not overlapping
+correlation of window density vs complexity r=0.2303585267758799
+at least one observation was empty, no χ2 performed
+
+
+ GCA_011947345.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 8237
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   92 |                773 |
+| high complexity |                    0 |               7372 |
+windows are not overlapping
+correlation of window density vs complexity r=0.20953347329915126
+at least one observation was empty, no χ2 performed
+
+
+ GCA_011947355.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5002
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   51 |                448 |
+| high complexity |                    0 |               4503 |
+windows are not overlapping
+correlation of window density vs complexity r=0.22516715185567865
+at least one observation was empty, no χ2 performed
+
+
+ GCA_012295415.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2525
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  4 |
+| high complexity |                    0 |               2521 |
+windows are not overlapping
+correlation of window density vs complexity r=0.06246340020049812
+at least one observation was empty, no χ2 performed
+
+
+ GCA_012295475.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 602
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  0 |
+| high complexity |                    0 |                602 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.052982570631056845
+at least one observation was empty, no χ2 performed
+
+
+ GCA_012656075.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 8253
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  232 |                663 |
+| high complexity |                    0 |               7358 |
+windows are not overlapping
+correlation of window density vs complexity r=0.34925748355691927
+at least one observation was empty, no χ2 performed
+
+
+ GCA_012656105.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7178
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   82 |                414 |
+| high complexity |                    1 |               6681 |
+windows are not overlapping
+correlation of window density vs complexity r=0.23943022805002023
+χ2(1, N=7178)=1087.7410319501244, p=1.5251585675041162e-238
+
+
+ GCA_014706105.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7118
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  261 |               1004 |
+| high complexity |                    1 |               5852 |
+windows are not overlapping
+correlation of window density vs complexity r=0.2485750578015107
+χ2(1, N=7118)=1241.1026518861572, p=7.123122129986056e-272
+
+
+ GCA_014706115.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 6928
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  294 |                782 |
+| high complexity |                    1 |               5851 |
+windows are not overlapping
+correlation of window density vs complexity r=0.22815080726465536
+χ2(1, N=6928)=1655.6461467212673, p=0.0
+
+
+ GCA_014706125.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7305
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  221 |                974 |
+| high complexity |                    0 |               6110 |
+windows are not overlapping
+correlation of window density vs complexity r=0.03254968033031728
+at least one observation was empty, no χ2 performed
+
+
+ GCA_014706135.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7539
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  223 |                499 |
+| high complexity |                    0 |               6817 |
+windows are not overlapping
+correlation of window density vs complexity r=0.45247510121857715
+at least one observation was empty, no χ2 performed
+
+
+ GCA_014706145.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7433
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  310 |               1057 |
+| high complexity |                    0 |               6066 |
+windows are not overlapping
+correlation of window density vs complexity r=0.15817191100168387
+at least one observation was empty, no χ2 performed
+
+
+ GCA_016169955.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 8337
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   61 |               1078 |
+| high complexity |                    1 |               7197 |
+windows are not overlapping
+correlation of window density vs complexity r=0.1547670454123635
+χ2(1, N=8337)=372.9362239966158, p=4.2943146515347004e-83
+
+
+ GCA_016864655.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 6501
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    8 |                455 |
+| high complexity |                    0 |               6038 |
+windows are not overlapping
+correlation of window density vs complexity r=0.006939770286830343
+at least one observation was empty, no χ2 performed
+
+
+ GCA_016880985.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4468
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  2 |
+| high complexity |                    0 |               4466 |
+windows are not overlapping
+correlation of window density vs complexity r=0.017860509343221725
+at least one observation was empty, no χ2 performed
+
+
+ GCA_018691715.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 10799
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   28 |               2731 |
+| high complexity |                    0 |               8040 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.09331522480054356
+at least one observation was empty, no χ2 performed
+
+
+ GCA_018806915.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 9197
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  137 |               2596 |
+| high complexity |                    0 |               6464 |
+windows are not overlapping
+correlation of window density vs complexity r=0.1783105669228016
+at least one observation was empty, no χ2 performed
+
+
+ GCA_018873745.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3200
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  0 |
+| high complexity |                    0 |               3200 |
+windows are not overlapping
+correlation of window density vs complexity r=0.015463920379726442
+at least one observation was empty, no χ2 performed
+
+
+ GCA_019155715.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3414
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  4 |
+| high complexity |                    0 |               3410 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.015849864916208475
+at least one observation was empty, no χ2 performed
+
+
+ GCA_020800215.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5671
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   51 |               1079 |
+| high complexity |                    0 |               4541 |
+windows are not overlapping
+correlation of window density vs complexity r=0.1791025059491832
+at least one observation was empty, no χ2 performed
+
+
+ GCA_023611945.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5115
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  168 |                638 |
+| high complexity |                    1 |               4308 |
+windows are not overlapping
+correlation of window density vs complexity r=0.17864646310865517
+χ2(1, N=5115)=914.7864483928252, p=5.990366758716976e-201
+
+
+ GCA_024211575.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 10456
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   96 |               2240 |
+| high complexity |                    1 |               8119 |
+windows are not overlapping
+correlation of window density vs complexity r=0.1957579998903744
+χ2(1, N=10456)=326.9130321402114, p=4.520042542534347e-73
+
+
+ GCA_024679045.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2994
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  3 |
+| high complexity |                    0 |               2991 |
+windows are not overlapping
+correlation of window density vs complexity r=0.0288921189227038
+at least one observation was empty, no χ2 performed
+
+
+ GCA_024679075.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 1909
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  7 |
+| high complexity |                    0 |               1902 |
+windows are not overlapping
+correlation of window density vs complexity r=0.04222772040993698
+at least one observation was empty, no χ2 performed
+
+
+ GCA_024679115.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2148
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  0 |
+| high complexity |                    0 |               2148 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.01767045857770713
+at least one observation was empty, no χ2 performed
+
+
+ GCA_024679135.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2392
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                 10 |
+| high complexity |                    0 |               2382 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.023939329545499332
+at least one observation was empty, no χ2 performed
+
+
+ GCA_024679175.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 854
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  3 |
+| high complexity |                    0 |                851 |
+windows are not overlapping
+correlation of window density vs complexity r=0.014170743041246332
+at least one observation was empty, no χ2 performed
+
+
+ GCA_024679225.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2857
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  2 |
+| high complexity |                    0 |               2855 |
+windows are not overlapping
+correlation of window density vs complexity r=0.014200846134611983
+at least one observation was empty, no χ2 performed
+
+
+ GCA_024679275.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 1009
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  6 |
+| high complexity |                    0 |               1003 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.02597538190701542
+at least one observation was empty, no χ2 performed
+
+
+ GCA_024679295.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 877
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  3 |
+| high complexity |                    0 |                874 |
+windows are not overlapping
+correlation of window density vs complexity r=0.014781007037927847
+at least one observation was empty, no χ2 performed
+
+
+ GCA_025722995.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5687
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  108 |               1538 |
+| high complexity |                    1 |               4040 |
+windows are not overlapping
+correlation of window density vs complexity r=0.21331068644065757
+χ2(1, N=5687)=262.36347264902764, p=5.240157400029198e-59
+
+
+ GCA_030027945.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4630
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   51 |                404 |
+| high complexity |                    0 |               4175 |
+windows are not overlapping
+correlation of window density vs complexity r=0.04973156918505642
+at least one observation was empty, no χ2 performed
+
+
+ GCA_030267725.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 3462
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  0 |
+| high complexity |                    0 |               3462 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.0023781293675113648
+at least one observation was empty, no χ2 performed
+
+
+ GCA_030267785.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4841
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  0 |
+| high complexity |                    0 |               4841 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.000777302160283222
+at least one observation was empty, no χ2 performed
+
+
+ GCA_030324255.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7774
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  395 |               1731 |
+| high complexity |                    0 |               5648 |
+windows are not overlapping
+correlation of window density vs complexity r=0.3854330919409122
+at least one observation was empty, no χ2 performed
+
+
+ GCA_030463285.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2243
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                 10 |
+| high complexity |                    0 |               2233 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.0025253349335670576
+at least one observation was empty, no χ2 performed
+
+
+ GCA_031305395.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 4760
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  141 |                658 |
+| high complexity |                    0 |               3961 |
+windows are not overlapping
+correlation of window density vs complexity r=0.21447043535996013
+at least one observation was empty, no χ2 performed
+
+
+ GCA_032158285.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7256
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  103 |                720 |
+| high complexity |                    0 |               6433 |
+windows are not overlapping
+correlation of window density vs complexity r=0.3110852808340309
+at least one observation was empty, no χ2 performed
+
+
+ GCA_032432875.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 5241
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                302 |
+| high complexity |                    0 |               4939 |
+windows are not overlapping
+correlation of window density vs complexity r=0.003246233347354095
+at least one observation was empty, no χ2 performed
+
+
+ GCA_033557915.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 10896
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  566 |               1347 |
+| high complexity |                    0 |               8983 |
+windows are not overlapping
+correlation of window density vs complexity r=0.34958434439661773
+at least one observation was empty, no χ2 performed
+
+
+ GCA_033557925.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 15079
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  331 |               3722 |
+| high complexity |                    1 |              11025 |
+windows are not overlapping
+correlation of window density vs complexity r=0.22465142286118445
+χ2(1, N=15079)=912.146924192599, p=2.2451476441495893e-200
+
+
+ GCA_033557995.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7920
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  203 |               1566 |
+| high complexity |                    0 |               6151 |
+windows are not overlapping
+correlation of window density vs complexity r=0.23122359168675768
+at least one observation was empty, no χ2 performed
+
+
+ GCA_033558005.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 6456
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  379 |               1132 |
+| high complexity |                    0 |               4945 |
+windows are not overlapping
+correlation of window density vs complexity r=0.23639775017166775
+at least one observation was empty, no χ2 performed
+
+
+ GCA_033558025.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 8562
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                  189 |               1119 |
+| high complexity |                    0 |               7254 |
+windows are not overlapping
+correlation of window density vs complexity r=0.10927459250596898
+at least one observation was empty, no χ2 performed
+
+
+ GCF_000142945.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 11173
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   37 |               2110 |
+| high complexity |                    0 |               9026 |
+windows are not overlapping
+correlation of window density vs complexity r=0.183007604082977
+at least one observation was empty, no χ2 performed
+
+
+ GCF_000149755.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 7339
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                   74 |                908 |
+| high complexity |                    0 |               6357 |
+windows are not overlapping
+correlation of window density vs complexity r=0.15697330898141648
+at least one observation was empty, no χ2 performed
+
+
+ GCF_000247585.1/
+
+Statistics for hash count vs complexity of window
+Number of windows analyzed: 2529
+Observations
+|                 |   unexpected density |   expected density |
+|:----------------|---------------------:|-------------------:|
+| low complexity  |                    0 |                  1 |
+| high complexity |                    0 |               2528 |
+windows are not overlapping
+correlation of window density vs complexity r=-0.004167619291945707
+at least one observation was empty, no χ2 performed

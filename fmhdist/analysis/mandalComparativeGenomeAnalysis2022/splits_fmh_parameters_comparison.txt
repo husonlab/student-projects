@@ -1,0 +1,660 @@
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 123.0
+total weight in a: 0.3374437465995764
+total weight in b: 1.3371933663803746
+splits a \ b: 91
+total weight of difference: 0.13867221301957258
+splits b \ a: 109
+total weight of difference: 0.49262525762743636
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 131.5
+total weight in a: 0.3374437465995764
+total weight in b: 1.326891386430298
+splits a \ b: 92
+total weight of difference: 0.14281915319124008
+splits b \ a: 127
+total weight of difference: 0.5157192648974303
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 126.0
+total weight in a: 0.3374437465995764
+total weight in b: 1.3095034580207376
+splits a \ b: 92
+total weight of difference: 0.14281915319124008
+splits b \ a: 116
+total weight of difference: 0.4977632739656276
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 136.5
+total weight in a: 0.3374437465995764
+total weight in b: 1.2989538199992519
+splits a \ b: 90
+total weight of difference: 0.13706431895512208
+splits b \ a: 135
+total weight of difference: 0.5054291732374399
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 136.0
+total weight in a: 0.3374437465995764
+total weight in b: 1.4338514955221289
+splits a \ b: 91
+total weight of difference: 0.13843691228961838
+splits b \ a: 135
+total weight of difference: 0.5739570893753858
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 138.5
+total weight in a: 0.3374437465995764
+total weight in b: 1.3063589444348362
+splits a \ b: 90
+total weight of difference: 0.13706431895512208
+splits b \ a: 139
+total weight of difference: 0.5057970899915832
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 134.5
+total weight in a: 0.3374437465995764
+total weight in b: 1.3092912907992065
+splits a \ b: 92
+total weight of difference: 0.14281915319124008
+splits b \ a: 133
+total weight of difference: 0.5236498813904925
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 131.0
+total weight in a: 0.3374437465995764
+total weight in b: 1.3165403409109564
+splits a \ b: 90
+total weight of difference: 0.13428997211795088
+splits b \ a: 124
+total weight of difference: 0.49529077217050294
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 135.0
+total weight in a: 0.3374437465995764
+total weight in b: 1.2413402194163088
+splits a \ b: 91
+total weight of difference: 0.1414465598567438
+splits b \ a: 133
+total weight of difference: 0.4831332923047352
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k10_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 125.5
+total weight in a: 0.3374437465995764
+total weight in b: 1.1676564214148821
+splits a \ b: 91
+total weight of difference: 0.13867221301957258
+splits b \ a: 114
+total weight of difference: 0.45491939860383607
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 140.5
+total weight in a: 1.3371933663803746
+total weight in b: 1.326891386430298
+splits a \ b: 65
+total weight of difference: 0.05996688521049664
+splits b \ a: 82
+total weight of difference: 0.08150513728331614
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 135.0
+total weight in a: 1.3371933663803746
+total weight in b: 1.3095034580207376
+splits a \ b: 62
+total weight of difference: 0.04937082925698345
+splits b \ a: 68
+total weight of difference: 0.06853480987247833
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 145.5
+total weight in a: 1.3371933663803746
+total weight in b: 1.2989538199992519
+splits a \ b: 64
+total weight of difference: 0.061112217023913604
+splits b \ a: 91
+total weight of difference: 0.08126635112295658
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 145.0
+total weight in a: 1.3371933663803746
+total weight in b: 1.4338514955221289
+splits a \ b: 66
+total weight of difference: 0.06399219323737869
+splits b \ a: 92
+total weight of difference: 0.09465392966275522
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 147.5
+total weight in a: 1.3371933663803746
+total weight in b: 1.3063589444348362
+splits a \ b: 57
+total weight of difference: 0.05529111487741788
+splits b \ a: 88
+total weight of difference: 0.07639964834988418
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 143.5
+total weight in a: 1.3371933663803746
+total weight in b: 1.3092912907992065
+splits a \ b: 66
+total weight of difference: 0.05340811406656341
+splits b \ a: 89
+total weight of difference: 0.09181401203346555
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 140.0
+total weight in a: 1.3371933663803746
+total weight in b: 1.3165403409109564
+splits a \ b: 58
+total weight of difference: 0.0529438326062929
+splits b \ a: 74
+total weight of difference: 0.06998686900853983
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 144.0
+total weight in a: 1.3371933663803746
+total weight in b: 1.2413402194163088
+splits a \ b: 65
+total weight of difference: 0.051833923433335885
+splits b \ a: 89
+total weight of difference: 0.08385840946044001
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k19_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 134.5
+total weight in a: 1.3371933663803746
+total weight in b: 1.1676564214148821
+splits a \ b: 64
+total weight of difference: 0.047472049860738184
+splits b \ a: 69
+total weight of difference: 0.07862244687566404
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 143.5
+total weight in a: 1.326891386430298
+total weight in b: 1.3095034580207376
+splits a \ b: 81
+total weight of difference: 0.07254966402243183
+splits b \ a: 70
+total weight of difference: 0.06504160649366302
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 154.0
+total weight in a: 1.326891386430298
+total weight in b: 1.2989538199992519
+splits a \ b: 76
+total weight of difference: 0.05748012047420313
+splits b \ a: 86
+total weight of difference: 0.07860172843052715
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 153.5
+total weight in a: 1.326891386430298
+total weight in b: 1.4338514955221289
+splits a \ b: 78
+total weight of difference: 0.06772819693604573
+splits b \ a: 87
+total weight of difference: 0.0871814117010824
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 156.0
+total weight in a: 1.326891386430298
+total weight in b: 1.3063589444348362
+splits a \ b: 76
+total weight of difference: 0.061642224272302176
+splits b \ a: 90
+total weight of difference: 0.0785592826282021
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 152.0
+total weight in a: 1.326891386430298
+total weight in b: 1.3092912907992065
+splits a \ b: 78
+total weight of difference: 0.06142563502067963
+splits b \ a: 84
+total weight of difference: 0.07922348250540698
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 148.5
+total weight in a: 1.326891386430298
+total weight in b: 1.3165403409109564
+splits a \ b: 74
+total weight of difference: 0.06556690753685195
+splits b \ a: 73
+total weight of difference: 0.05309189888643738
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 152.5
+total weight in a: 1.326891386430298
+total weight in b: 1.2413402194163088
+splits a \ b: 86
+total weight of difference: 0.08453886725580663
+splits b \ a: 93
+total weight of difference: 0.08204151645659231
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k20_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 143.0
+total weight in a: 1.326891386430298
+total weight in b: 1.1676564214148821
+splits a \ b: 84
+total weight of difference: 0.07028979435002138
+splits b \ a: 72
+total weight of difference: 0.07163887138375183
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 148.5
+total weight in a: 1.3095034580207376
+total weight in b: 1.2989538199992519
+splits a \ b: 64
+total weight of difference: 0.05909420727759829
+splits b \ a: 85
+total weight of difference: 0.0847013283903606
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 148.0
+total weight in a: 1.3095034580207376
+total weight in b: 1.4338514955221289
+splits a \ b: 55
+total weight of difference: 0.04961267141406915
+splits b \ a: 75
+total weight of difference: 0.08065204160864936
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 150.5
+total weight in a: 1.3095034580207376
+total weight in b: 1.3063589444348362
+splits a \ b: 56
+total weight of difference: 0.05533412688853715
+splits b \ a: 81
+total weight of difference: 0.08052092262914902
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 146.5
+total weight in a: 1.3095034580207376
+total weight in b: 1.3092912907992065
+splits a \ b: 44
+total weight of difference: 0.023691991224605496
+splits b \ a: 61
+total weight of difference: 0.04132262208753889
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 143.0
+total weight in a: 1.3095034580207376
+total weight in b: 1.3165403409109564
+splits a \ b: 61
+total weight of difference: 0.045948126976269606
+splits b \ a: 71
+total weight of difference: 0.04715813998894257
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 147.0
+total weight in a: 1.3095034580207376
+total weight in b: 1.2413402194163088
+splits a \ b: 68
+total weight of difference: 0.05957945064940173
+splits b \ a: 86
+total weight of difference: 0.06268077299985277
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s1000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 137.5
+total weight in a: 1.3095034580207376
+total weight in b: 1.1676564214148821
+splits a \ b: 72
+total weight of difference: 0.061086067263525716
+splits b \ a: 71
+total weight of difference: 0.07861171674362298
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 158.5
+total weight in a: 1.2989538199992519
+total weight in b: 1.4338514955221289
+splits a \ b: 59
+total weight of difference: 0.03456784281912141
+splits b \ a: 58
+total weight of difference: 0.03858016724795948
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 161.0
+total weight in a: 1.2989538199992519
+total weight in b: 1.3063589444348362
+splits a \ b: 27
+total weight of difference: 0.014248596381832842
+splits b \ a: 31
+total weight of difference: 0.01739170839979317
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 157.0
+total weight in a: 1.2989538199992519
+total weight in b: 1.3092912907992065
+splits a \ b: 79
+total weight of difference: 0.07151657208446702
+splits b \ a: 75
+total weight of difference: 0.06550434262288782
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 153.5
+total weight in a: 1.2989538199992519
+total weight in b: 1.3165403409109564
+splits a \ b: 73
+total weight of difference: 0.06965589940589811
+splits b \ a: 62
+total weight of difference: 0.050431854402820345
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 157.5
+total weight in a: 1.2989538199992519
+total weight in b: 1.2413402194163088
+splits a \ b: 94
+total weight of difference: 0.10038537302704739
+splits b \ a: 91
+total weight of difference: 0.08272551045145655
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.containment-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 148.0
+total weight in a: 1.2989538199992519
+total weight in b: 1.1676564214148821
+splits a \ b: 89
+total weight of difference: 0.060760592000640955
+splits b \ a: 67
+total weight of difference: 0.06076122508191307
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 160.5
+total weight in a: 1.4338514955221289
+total weight in b: 1.3063589444348362
+splits a \ b: 48
+total weight of difference: 0.03354313217842004
+splits b \ a: 53
+total weight of difference: 0.029822806348056608
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 156.5
+total weight in a: 1.4338514955221289
+total weight in b: 1.3092912907992065
+splits a \ b: 73
+total weight of difference: 0.06255754247732442
+splits b \ a: 70
+total weight of difference: 0.052174132906449636
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 153.0
+total weight in a: 1.4338514955221289
+total weight in b: 1.3165403409109564
+splits a \ b: 84
+total weight of difference: 0.09886049946700236
+splits b \ a: 74
+total weight of difference: 0.0583657070152722
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 157.0
+total weight in a: 1.4338514955221289
+total weight in b: 1.2413402194163088
+splits a \ b: 95
+total weight of difference: 0.11694532236141719
+splits b \ a: 93
+total weight of difference: 0.08284964001019247
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000.nxs.mash-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 147.5
+total weight in a: 1.4338514955221289
+total weight in b: 1.1676564214148821
+splits a \ b: 85
+total weight of difference: 0.06794740762867844
+splits b \ a: 64
+total weight of difference: 0.06044485546762384
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 159.0
+total weight in a: 1.3063589444348362
+total weight in b: 1.3092912907992065
+splits a \ b: 76
+total weight of difference: 0.06648049391119773
+splits b \ a: 68
+total weight of difference: 0.06012475005476113
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 155.5
+total weight in a: 1.3063589444348362
+total weight in b: 1.3165403409109564
+splits a \ b: 71
+total weight of difference: 0.07014532629998281
+splits b \ a: 56
+total weight of difference: 0.04190999142109619
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 159.5
+total weight in a: 1.3063589444348362
+total weight in b: 1.2413402194163088
+splits a \ b: 95
+total weight of difference: 0.09799611008204585
+splits b \ a: 88
+total weight of difference: 0.07837645471047518
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 150.0
+total weight in a: 1.3063589444348362
+total weight in b: 1.1676564214148821
+splits a \ b: 90
+total weight of difference: 0.05981704138102719
+splits b \ a: 64
+total weight of difference: 0.057760981695818774
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 151.5
+total weight in a: 1.3092912907992065
+total weight in b: 1.3165403409109564
+splits a \ b: 81
+total weight of difference: 0.07834278090806387
+splits b \ a: 74
+total weight of difference: 0.05821057943004035
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 155.5
+total weight in a: 1.3092912907992065
+total weight in b: 1.2413402194163088
+splits a \ b: 92
+total weight of difference: 0.08801621713383777
+splits b \ a: 93
+total weight of difference: 0.07066735765688606
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s4000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 146.0
+total weight in a: 1.3092912907992065
+total weight in b: 1.1676564214148821
+splits a \ b: 88
+total weight of difference: 0.0756729702256551
+splits b \ a: 70
+total weight of difference: 0.06817619346239956
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 152.0
+total weight in a: 1.3165403409109564
+total weight in b: 1.2413402194163088
+splits a \ b: 75
+total weight of difference: 0.05972883032808998
+splits b \ a: 83
+total weight of difference: 0.06425409419051707
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k21_s500-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 142.5
+total weight in a: 1.3165403409109564
+total weight in b: 1.1676564214148821
+splits a \ b: 81
+total weight of difference: 0.060568492204879976
+splits b \ a: 70
+total weight of difference: 0.08010486973850481
+
+
+a: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k25_s2000-splits.txt
+b: /home/gnampfelix/repositories/github.com/gnampfelix/thesis/analysis/mandalComparativeGenomeAnalysis2022/mine/distance_k30_s2000-splits.txt
+128 taxa in a, 128 taxa in b
+Robinson-Foulds-Distance: 146.5
+total weight in a: 1.2413402194163088
+total weight in b: 1.1676564214148821
+splits a \ b: 96
+total weight of difference: 0.07520141386268134
+splits b \ a: 77
+total weight of difference: 0.09104516588722858
+
+
