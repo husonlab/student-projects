@@ -23,6 +23,7 @@
         <module>genetreeview</module>
         <module>mapview</module>
         <module>fmhdist</module>
+        <module>treesnet</module>
     </modules>
 
 </project>

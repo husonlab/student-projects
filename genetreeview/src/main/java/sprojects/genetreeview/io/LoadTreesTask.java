@@ -21,7 +21,6 @@ package sprojects.genetreeview.io;
 
 import javafx.concurrent.Task;
 import splitstree6.utils.Stabilizer;
-import splitstree6.view.trees.tanglegram.optimize.LayoutUnoptimized;
 import sprojects.genetreeview.model.Model;
 
 import java.io.File;
@@ -42,12 +41,14 @@ public class LoadTreesTask extends Task<Void> {
 	protected Void call() throws Exception {
 		model.load(file);
 		if (model.getTreesBlock().isReticulated()) {
+			/*
 			var layoutUnoptmized = new LayoutUnoptimized();
 			for (var tree : model.getTreesBlock().getTrees()) {
 				if (tree.isReticulated()) {
 					layoutUnoptmized.apply(tree);
 				}
 			}
+			 */
 		}
 		if (!model.getTreesBlock().isReticulated()) {
 			stabilizer.setup(model.getTreesBlock().getTrees());

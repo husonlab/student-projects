@@ -34,11 +34,11 @@ import javafx.scene.shape.Shape;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import jloda.fx.control.RichTextLabel;
+import jloda.fx.phylo.embed.Averaging;
 import jloda.fx.util.SelectionEffectBlue;
 import jloda.phylo.PhyloTree;
 import splitstree6.data.TaxaBlock;
 import splitstree6.layout.tree.ComputeTreeLayout;
-import splitstree6.layout.tree.HeightAndAngles;
 import splitstree6.layout.tree.LabeledEdgeShape;
 import splitstree6.layout.tree.TreeDiagramType;
 import sprojects.genetreeview.util.SelectionModelSet;
@@ -81,8 +81,8 @@ public class TreeSheet extends StackPane implements Selectable {
 				new SimpleStringProperty(tree.getTaxon2Node(taxonId).getLabel());
 
 		var computedTreeLayout = ComputeTreeLayout.apply(tree, tree.getNumberOfTaxa(), taxonLabelMap,
-				diagram, HeightAndAngles.Averaging.ChildAverage, width - 80, height - 20,
-				false, new HashMap<>(), new HashMap<>());
+				diagram, Averaging.ChildAverage, width - 80, height - 20,
+				false, new HashMap<>(), new HashMap<>(), true);
 
 		Group layoutedTree = new Group();
 		if (computedTreeLayout.labelConnectors() != null)
