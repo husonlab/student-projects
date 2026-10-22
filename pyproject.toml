@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magrix"
+version = "0.1.0"
+description = "Query large MAG x gene family matrices built by MAGrix without loading them into memory"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+[project.optional-dependencies]
+server = ["fastapi", "uvicorn"]
+test = ["pytest"]
+
+[project.scripts]
+magrix-serve = "magrix.server:main"
+
+# Only the Python query package is installed. The Rust pipeline next to it is
+# built with cargo. Listing the package explicitly stops setuptools from
+# mistaking the Rust src/ directory for a Python src layout.
+[tool.setuptools]
+packages = ["magrix"]
