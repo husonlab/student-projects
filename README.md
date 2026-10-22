@@ -51,10 +51,12 @@ the corresponding Python method. Querying needs no Rust at all.
 
 ## Quick start
 
+From the repository folder:
+
 ```bash
-cargo install --path magrix                  # build tool (Rust)
+cargo install --path .                       # build tool (Rust)
 magrix build clusters.tsv output/my_dataset  # build a dataset
-pip install ./magrix                         # query library (Python)
+pip install .                                # query library (Python)
 ```
 
 ```python
@@ -71,13 +73,12 @@ families, copies = m.paralog.row(m.dicts.mag_id("Mag568575"))
 Needs a Rust toolchain (`cargo`, edition 2021). No external crates are used.
 
 ```bash
-cargo install --path magrix      # installs magrix and the stage programs into ~/.cargo/bin
+cargo install --path .           # installs magrix and the stage programs into ~/.cargo/bin
 ```
 
 or build inside the repository and call `./target/release/magrix`:
 
 ```bash
-cd magrix
 cargo build --release
 ```
 
@@ -86,9 +87,9 @@ cargo build --release
 Needs Python ≥ 3.9; NumPy and SciPy are installed as dependencies.
 
 ```bash
-pip install ./magrix                 # query library
-pip install "./magrix[server]"       # plus the HTTP server (FastAPI, uvicorn)
-pip install "./magrix[test]"         # plus pytest
+pip install .                        # query library
+pip install ".[server]"              # plus the HTTP server (FastAPI, uvicorn)
+pip install ".[test]"                # plus pytest
 ```
 
 **Without installing**, e.g. when the repository sits in a shared folder you can only read:
@@ -96,14 +97,14 @@ pip install "./magrix[test]"         # plus pytest
 package is. Either in the shell
 
 ```bash
-export PYTHONPATH=/path/to/magrix        # the repository folder, which contains the package folder magrix/
+export PYTHONPATH=/path/to/repository    # the repository folder, which contains the package folder magrix/
 ```
 
 or at the top of your script
 
 ```python
 import sys
-sys.path.insert(0, "/path/to/magrix")
+sys.path.insert(0, "/path/to/repository")
 from magrix import PanGenomeMatrices
 ```
 
@@ -302,7 +303,7 @@ m = PanGenomeMatrices("old/output/my_dataset")
 
 # now
 import sys
-sys.path.insert(0, "/path/to/magrix")            # or pip install / PYTHONPATH, see Installation
+sys.path.insert(0, "/path/to/repository")        # or pip install / PYTHONPATH, see Installation
 from magrix import PanGenomeMatrices
 m = PanGenomeMatrices("new/output/my_dataset")   # a dataset built with magrix build
 ```
@@ -428,7 +429,7 @@ equal, at roughly √(nnz · merge buffer / 12 bytes); for 1.35 billion entries 
 
 ### Tests
 
-From inside `magrix/`:
+From the repository folder:
 
 ```bash
 cargo test --release            # unit tests of the Rust programs
@@ -459,16 +460,16 @@ Scripts for real datasets:
 ### Repository layout
 
 ```
-magrix/
-  Cargo.toml, pyproject.toml
-  src/main.rs              stage 1
-  src/bin/                 magrix (whole pipeline) and stages 2–4
-  magrix/                  Python package: api.py (queries), server.py (HTTP)
-  tests/                   Python tests
-  bash_scripts/            SLURM scripts (pipeline with measurements, buffer sweep, format benchmark)
-  results/                 measurements (buffer sweep, query latency, HTTP latency, formats)
-  clusters.tsv             small test fixture
-  test_real_data.py, bench_http.py, bench_formats.py   measurement scripts (see Tests)
-  benchmark_backends.py, bench_sqlite.py, build_sqlite_from_binary.py,
-  build_matrix_backends.py  earlier, superseded comparisons with HDF5, Zarr and SQLite
+Cargo.toml, pyproject.toml
+src/main.rs              stage 1
+src/bin/                 magrix (whole pipeline) and stages 2–4
+magrix/                  Python package: api.py (queries), server.py (HTTP)
+tests/                   Python tests
+clusters.tsv             small test fixture
+test_real_data.py, bench_http.py, bench_formats.py   measurement scripts (see Tests)
+bash_scripts/            SLURM scripts (pipeline with measurements, buffer sweep, format benchmark)
+results/                 measured data as CSV, and the scripts that plot it
 ```
+
+The SLURM scripts change into the folder they were run from on BinAC2
+(`cd /pfs/10/work/...`); adjust that line before running them elsewhere.
