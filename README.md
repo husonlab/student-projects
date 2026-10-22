@@ -90,6 +90,7 @@ Needs Python ≥ 3.9; NumPy and SciPy are installed as dependencies.
 pip install .                        # query library
 pip install ".[server]"              # plus the HTTP server (FastAPI, uvicorn)
 pip install ".[test]"                # plus pytest
+pip install ".[bench]"               # plus h5py, Zarr and matplotlib for bench_formats.py and the plots (Python ≥ 3.11)
 ```
 
 **Without installing**, e.g. when the repository sits in a shared folder you can only read:
@@ -446,7 +447,7 @@ Scripts for real datasets:
 |---|---|
 | `test_real_data.py <data_dir>` | open time, latency of every query type (cold and warm), worst-case member query, consistency check |
 | `bench_http.py --url http://localhost:8765` | latency of a running `magrix-serve` over HTTP |
-| `bench_formats.py <data_dir> <work_dir>` | the same data in HDF5, Zarr and SQLite: size, build time, query latency (`bash_scripts/run_format_benchmark.sh` runs it on samples) |
+| `bench_formats.py <data_dir> <work_dir>` | the same data in HDF5, Zarr and SQLite: size, build time, query latency (`bash_scripts/run_format_benchmark.sh` runs it on samples; needs `pip install ".[bench]"`) |
 
 ### Limits and assumptions
 

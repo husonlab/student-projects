@@ -16,6 +16,8 @@ dependencies = [
 [project.optional-dependencies]
 server = ["fastapi", "uvicorn"]
 test = ["pytest"]
+# bench_formats.py (HDF5/Zarr comparison) and the plot scripts in results/; zarr 3 needs Python >= 3.11
+bench = ["h5py", "zarr>=3", "matplotlib"]
 
 [project.scripts]
 magrix-serve = "magrix.server:main"
