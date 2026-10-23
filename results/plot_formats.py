@@ -48,11 +48,11 @@ VARIANTS = [
     ("hdf5_contiguous", "HDF5", "HDF5 contiguous"),
     ("hdf5_chunk64k", "HDF5", "HDF5 64k chunks"),
     ("hdf5_chunk64k_gzip", "HDF5", "HDF5 64k + gzip"),
-    ("hdf5_chunk2M_gzip", "HDF5", "HDF5 2M + gzip (earlier)"),
+    ("hdf5_chunk2M_gzip", "HDF5", "HDF5 2M chunks + gzip"),
     ("zarr_chunk64k", "Zarr", "Zarr 64k chunks"),
     ("zarr_chunk64k_zstd", "Zarr", "Zarr 64k + zstd"),
-    ("zarr_chunk2M_zstd", "Zarr", "Zarr 2M + zstd (earlier)"),
-    ("sqlite_rowid", "SQLite", "SQLite (earlier)"),
+    ("zarr_chunk2M_zstd", "Zarr", "Zarr 2M chunks + zstd"),
+    ("sqlite_rowid", "SQLite", "SQLite, one index per id"),
     ("sqlite_norowid", "SQLite", "SQLite WITHOUT ROWID"),
 ]
 

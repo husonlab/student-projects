@@ -229,8 +229,7 @@ class PresenceView:
     own: a cell is stored in the paralog matrix exactly when the MAG has at
     least one gene of the family, so "presence" is just "does paralog have an
     entry here" — any stored cell implies presence=1, since only nonzero
-    copy numbers are stored. (Earlier versions stored a separate presence
-    matrix; its indices/indptr were byte-identical to paralog's on real data.)"""
+    copy numbers are stored."""
 
     def __init__(self, paralog):
         self._paralog = paralog

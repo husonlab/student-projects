@@ -12,11 +12,11 @@ Variants:
   hdf5_contiguous      HDF5, no chunking, no compression
   hdf5_chunk64k        HDF5, chunks of 65,536 elements, no compression
   hdf5_chunk64k_gzip   HDF5, chunks of 65,536 elements, gzip level 4
-  hdf5_chunk2M_gzip    HDF5, chunks of 2,000,000 elements, gzip level 4 (earlier benchmark)
+  hdf5_chunk2M_gzip    HDF5, chunks of 2,000,000 elements, gzip level 4
   zarr_chunk64k        Zarr, chunks of 65,536 elements, no compression
   zarr_chunk64k_zstd   Zarr, chunks of 65,536 elements, Blosc zstd level 5
-  zarr_chunk2M_zstd    Zarr, chunks of 2,000,000 elements, Blosc zstd level 5 (earlier benchmark)
-  sqlite_rowid         table (mag_id, family_id, value) + one index per id (earlier benchmark)
+  zarr_chunk2M_zstd    Zarr, chunks of 2,000,000 elements, Blosc zstd level 5
+  sqlite_rowid         table (mag_id, family_id, value) + one index per id
   sqlite_norowid       WITHOUT ROWID table, primary key (mag_id, family_id), plus a covering
                        index (family_id, value) -- the best plain SQLite layout for both queries
 

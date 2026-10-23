@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Figures for the buffer sweep (bash_scripts/buffer_sweep.sh, results/buffer_sweep.csv).
+Figures for the buffer sweep (results/buffer_sweep.csv).
 
   buffer_sweep_io.pdf/.png            run time and peak memory over read/write buffer size
   buffer_sweep_rows_per_run.pdf/.png  run time and peak memory of stage 2b over rows_per_run

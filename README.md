@@ -4,10 +4,10 @@
 into a compact **MAG × gene family matrix** and lets you query it from Python without ever
 loading the matrix into memory.
 
-It was built for a pan-genome of 581,345 metagenome-assembled genomes (MAGs) with up to
-96.3 million gene families and 1.35 billion non-zero entries. From a 77 GB input table it
-builds a 23.2 GB container in 39 minutes with less than 1 GB of memory; a single row or
-column query then takes a few microseconds once the data is in the page cache.
+It is made for pan-genomes of hundreds of thousands of metagenome-assembled genomes (MAGs),
+tens of millions of gene families and billions of non-zero entries: building the matrix needs
+less than 1 GB of memory regardless of the input size, and a single row or column query takes
+a few microseconds once the data is in the page cache.
 
 - **Out-of-core construction.** No stage assumes the data fits into memory.
 - **Lossless.** Stores copy numbers (not only presence/absence) *and* the individual member
@@ -26,7 +26,6 @@ column query then takes a few microseconds once the data is in the page cache.
 - [Building a dataset](#building-a-dataset)
 - [Querying from Python](#querying-from-python)
 - [Querying over HTTP](#querying-over-http)
-- [Switching from the earlier `pangenome_api.py`](#switching-from-the-earlier-pangenome_apipy)
 - [Reference](#reference): input format, output files, container format, configuration,
   tests, limits, repository layout
 
@@ -144,8 +143,8 @@ Wrap the command in a small batch script:
 magrix build datasets/clusters.tsv output/my_dataset
 ```
 
-`bash_scripts/run_pipeline_dataset.sh` does the same stage by stage and additionally records
-the run time and peak memory of every stage; it was used for the measurements.
+Memory stays below 1 GB for an input of about 1.4 billion rows, so a small `--mem` is enough;
+`--time` depends on the input size and the file system (roughly one hour for 1.4 billion rows).
 
 ### Stage by stage
 
@@ -255,7 +254,7 @@ ssh -L 8765:localhost:8765 <user>@<host>
 ```
 
 If the cluster has several login nodes behind one address that can't be reached individually,
-jump over the shared address to the right node (on BinAC2, e.g., `login01`):
+jump over the shared address to the node the server runs on (`hostname` on the server shows it):
 
 ```bash
 ssh -J <user>@<shared-login-address> -L 8765:localhost:8765 <user>@<login-node>
@@ -287,44 +286,6 @@ return HTTP 400. The app can also be run directly with
 Through an SSH tunnel a request takes 20–80 ms (median), almost all of it network: the query
 itself takes microseconds. Keeping one connection open for many requests roughly halves that
 (`bench_http.py` measures it).
-
-## Switching from the earlier `pangenome_api.py`
-
-The earlier version was a single file, `pangenome_api.py`. The methods are unchanged, but the
-container format is new: **the new API cannot read old containers and the old API cannot read
-new ones**, so datasets have to be rebuilt with `magrix build` (the same input gives the same
-MAG and family IDs).
-
-What to change in your code:
-
-```python
-# before
-from pangenome_api import PanGenomeMatrices
-m = PanGenomeMatrices("old/output/my_dataset")
-
-# now
-import sys
-sys.path.insert(0, "/path/to/repository")        # or pip install / PYTHONPATH, see Installation
-from magrix import PanGenomeMatrices
-m = PanGenomeMatrices("new/output/my_dataset")   # a dataset built with magrix build
-```
-
-Nothing else changes if you use the methods listed above: same names, arguments and return
-types, and `members.genes_for` / `gene_ids_for` return exactly the same genes. Only code that
-reaches into the raw arrays is affected:
-
-| Before | Now |
-|---|---|
-| `m.paralog.csr_data`, `csc_data` were `uint32` | they are `uint16`; use `.astype(np.uint32)` before arithmetic (see above) |
-| `m.members.indptr`, `m.members.gene_ids` | gone; use `m.members.gene_ids_for(mag_id, family_id)` |
-| `m.members` could be `None` | always present |
-| the HTTP server was `api_server.py` | `magrix-serve`; the endpoints are identical |
-
-Why `members` changed: the old format stored one pointer per *cell* and the full 64-bit gene
-ID of every gene. The number of genes in a cell is its copy number, which the matrix already
-holds, so one pointer per *family* is enough; and the MAG part of a gene ID is the MAG of the
-cell, so only the 32-bit gene number is stored. This shrank the members part from 21.7 GB to
-6.2 GB on the largest dataset (see [Container format](#container-format)).
 
 ---
 
@@ -363,18 +324,6 @@ into the original identifier:
 ```
 4294970720 = 1 · 2³² + 3424   →   MAG 1 = Mag568575   →   Mag568575|Mag568575_gene3424
 ```
-
-Measured sizes for the four clusterings of the 581,345-MAG pan-genome:
-
-| Clustering | Gene families | Non-zero entries | Container | All three files | Build time | Peak memory |
-|---|---|---|---|---|---|---|
-| 50id80cov | 96,300,606 | 1,350,493,933 | 23.19 GB | 25.65 GB | 39 min | 0.89 GB |
-| 50id80cov_covmode1 | 63,231,382 | 1,291,027,522 | 21.95 GB | 23.55 GB | 49 min | 0.64 GB |
-| cluster_50id80cov | 49,715,967 | 1,334,992,457 | 22.26 GB | 23.53 GB | 50 min | 0.54 GB |
-| cluster_50id80cov_covmode1 | 37,574,754 | 1,269,374,552 | 21.28 GB | 22.24 GB | 40 min | 0.53 GB |
-
-A dense matrix with one byte per entry would take 22–56 TB. The four builds ran at the same
-time on one shared node, so the build times include I/O contention.
 
 ### Container format
 
@@ -421,8 +370,7 @@ MiB); `magrix build` passes them on to the stages:
 MAGRIX_READ_BUF_MB=32 magrix build clusters.tsv output/my_dataset --rows-per-run 5000000
 ```
 
-`bash_scripts/buffer_sweep.sh` measures the effect of these settings; the results are in
-`results/`. Read and write buffers between 1 and 256 MiB made no measurable difference in run
+Measurements of these settings are in `results/buffer_sweep.csv`. Read and write buffers between 1 and 256 MiB made no measurable difference in run
 time while memory grew with the buffer size, hence the 8 MiB defaults. For `--rows-per-run`,
 memory is lowest when the sort buffer of phase 1 and the merge buffers of phase 2 are about
 equal, at roughly √(nnz · merge buffer / 12 bytes); for 1.35 billion entries this is about
@@ -447,7 +395,7 @@ Scripts for real datasets:
 |---|---|
 | `test_real_data.py <data_dir>` | open time, latency of every query type (cold and warm), worst-case member query, consistency check |
 | `bench_http.py --url http://localhost:8765` | latency of a running `magrix-serve` over HTTP |
-| `bench_formats.py <data_dir> <work_dir>` | the same data in HDF5, Zarr and SQLite: size, build time, query latency (`bash_scripts/run_format_benchmark.sh` runs it on samples; needs `pip install ".[bench]"`) |
+| `bench_formats.py <data_dir> <work_dir>` | the same data in HDF5, Zarr and SQLite: size, build time, query latency (needs `pip install ".[bench]"`) |
 
 ### Limits and assumptions
 
@@ -468,9 +416,5 @@ magrix/                  Python package: api.py (queries), server.py (HTTP)
 tests/                   Python tests
 clusters.tsv             small test fixture
 test_real_data.py, bench_http.py, bench_formats.py   measurement scripts (see Tests)
-bash_scripts/            SLURM scripts (pipeline with measurements, buffer sweep, format benchmark)
 results/                 measured data as CSV, and the scripts that plot it
 ```
-
-The SLURM scripts change into the folder they were run from on BinAC2
-(`cd /pfs/10/work/...`); adjust that line before running them elsewhere.
