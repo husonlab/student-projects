@@ -2,12 +2,15 @@
 
 **MAGrix** turns the gene clustering output of [MMseqs2](https://github.com/soedinglab/MMseqs2)
 into a compact **MAG × gene family matrix** and lets you query it from Python without ever
-loading the matrix into memory.
+loading the matrix into memory. Each row is a metagenome-assembled genome (MAG), each column
+a gene family (one MMseqs2 cluster), and each cell says how many genes of that family the MAG
+carries.
 
-It is made for pan-genomes of hundreds of thousands of metagenome-assembled genomes (MAGs),
-tens of millions of gene families and billions of non-zero entries: building the matrix needs
-less than 1 GB of memory regardless of the input size, and a single row or column query takes
-a few microseconds once the data is in the page cache.
+It is made for pan-genomes of hundreds of thousands of MAGs, tens of millions of gene families
+and billions of non-zero entries. Memory grows with the number of MAGs and families, not with
+the number of input rows: 1.35 billion entries from 580,000 MAGs and 96 million families were
+built with less than 1 GB. A single row or column query takes a few microseconds once the data
+is in the page cache.
 
 - **Out-of-core construction.** No stage assumes the data fits into memory.
 - **Lossless.** Stores copy numbers (not only presence/absence) *and* the individual member
@@ -22,6 +25,7 @@ a few microseconds once the data is in the page cache.
 
 - [How the parts fit together](#how-the-parts-fit-together)
 - [Quick start](#quick-start)
+- [Preparing the input](#preparing-the-input)
 - [Installation](#installation)
 - [Building a dataset](#building-a-dataset)
 - [Querying from Python](#querying-from-python)
@@ -50,26 +54,66 @@ the corresponding Python method. Querying needs no Rust at all.
 
 ## Quick start
 
-From the repository folder:
+The repository contains a small example clustering, `clusters.tsv`, to try it out:
 
 ```bash
-cargo install --path .                       # build tool (Rust)
-magrix build clusters.tsv output/my_dataset  # build a dataset
-pip install .                                # query library (Python)
+git clone https://github.com/Jenniksen/Magrix.git
+cd Magrix
+cargo install --path .                    # build tool (Rust)
+magrix build clusters.tsv output/example  # build a dataset
+pip install .                             # query library (Python)
 ```
 
 ```python
 from magrix import PanGenomeMatrices
 
-m = PanGenomeMatrices("output/my_dataset")
-families, copies = m.paralog.row(m.dicts.mag_id("Mag568575"))
+m = PanGenomeMatrices("output/example")
+families, copies = m.paralog.row(m.dicts.mag_id("Mag1"))
 ```
+
+For your own data, replace `clusters.tsv` with your MMseqs2 cluster table (see the next
+section).
+
+## Preparing the input
+
+MAGrix reads the cluster table that MMseqs2 writes: two tab-separated columns, the
+representative gene of a cluster and one member gene. `mmseqs easy-cluster` writes it as
+`<prefix>_cluster.tsv`; after `mmseqs cluster` you get it with `mmseqs createtsv`.
+
+```bash
+mmseqs easy-cluster all_genes.faa clu tmp    # writes clu_cluster.tsv
+magrix build clu_cluster.tsv output/my_dataset
+```
+
+**Gene names must have the form `<MAG>|<MAG>_gene<N>`**, e.g. `Mag17|Mag17_gene305`, because
+MAGrix takes the MAG and the gene number from the name. Other names abort the run with an
+error message. If your gene FASTA headers look different, rename them *before* clustering,
+for example one file per MAG:
+
+```bash
+# MAG name = file name without .faa; genes numbered 1, 2, 3, ... in file order
+for f in mags/*.faa; do
+  mag=$(basename "$f" .faa)
+  awk -v m="$mag" '/^>/ {print ">" m "|" m "_gene" ++n; next} {print}' "$f"
+done > all_genes.faa
+```
+
+This replaces the original headers, so keep a copy of the original files if you need the old
+names later. The MAG name itself must not contain `|`. See [Input format](#input-format) for
+the details.
 
 ## Installation
 
+Clone the repository first; both parts are installed from it. They are independent:
+
+- **Build tool (Rust)**: only needed to build a dataset from an MMseqs2 clustering.
+- **Query library (Python)**: only needed to work with a dataset that has already been built.
+  It cannot build datasets, and it needs no Rust.
+
 ### Build tool (Rust)
 
-Needs a Rust toolchain (`cargo`, edition 2021). No external crates are used.
+Needs a Rust toolchain (`cargo`, edition 2021). No external crates are used, so building only
+compiles the code in `src/` and downloads nothing.
 
 ```bash
 cargo install --path .           # installs magrix and the stage programs into ~/.cargo/bin
@@ -110,8 +154,7 @@ from magrix import PanGenomeMatrices
 
 NumPy and SciPy then have to be in your environment already.
 
-Tested with Rust 1.95, Python 3.13, NumPy 2.4 and SciPy 1.18; used with Python 3.11 on the
-cluster.
+Tested with Rust 1.95, Python 3.13, NumPy 2.4 and SciPy 1.18; also runs with Python 3.11.
 
 ## Building a dataset
 
@@ -169,13 +212,17 @@ from magrix import PanGenomeMatrices
 
 m = PanGenomeMatrices("output/my_dataset")      # takes a few seconds: loads the dictionaries
 
-mag = m.dicts.mag_id("Mag568575")               # MAG name -> id
+mag = m.dicts.mag_id("Mag1")                    # MAG name -> id
 families, copies = m.paralog.row(mag)           # gene families of this MAG + copy numbers
 mags, copies = m.paralog.column(42)             # MAGs that carry family 42 + copy numbers
 n = m.paralog.get(mag, 42)                      # one cell (0 if empty)
 genes = m.members.genes_for(mag, 42)            # member genes of that cell, as names
 sub = m.paralog.submatrix([0, 1, 2], [5, 6, 7]) # scipy.sparse COO matrix
 ```
+
+`m.paralog` holds the copy numbers (how many genes of a family a MAG has, so paralogs count
+several times). `m.presence` is the same matrix as 0/1 (family present or not); it is computed
+on the fly from the same data and takes no extra space.
 
 Opening a dataset reads the 4 KB container header and the two dictionaries. The matrix itself
 is memory-mapped: only the parts a query touches are read from disk, so memory use does not
@@ -201,8 +248,8 @@ Invalid IDs raise `ValueError`, unknown MAG names raise `KeyError`.
 
 ### Copy numbers: `uint16` on disk, `uint32` in results
 
-Copy numbers are stored as 16-bit integers (0–65,535) to save space; the largest copy number
-in the real data is 351. All methods above return them as `uint32`, so sums over many MAGs
+Copy numbers are stored as 16-bit integers (0–65,535) to save space; in clusterings of
+580,000 MAGs the largest copy number was a few hundred. All methods above return them as `uint32`, so sums over many MAGs
 are safe.
 
 If you read the raw arrays directly (`m.paralog.csr_data`, `m.paralog.csc_data`), you get
@@ -351,8 +398,8 @@ little-endian.
 The genes of a cell are found through the CSC column of its family: they start at
 `family_ptr[family]` plus the copy numbers of the cells before it in that column. Their MAG is
 the MAG of the cell, so only the local gene number is stored. Looking up a cell near the end of
-a very large family therefore sums more copy numbers; on the largest family (83,781 MAGs) this
-takes 64 µs instead of the usual ~17 µs.
+a very large family therefore sums more copy numbers; for a family found in about 84,000 MAGs
+this takes 64 µs instead of the usual ~17 µs.
 
 ### Configuration
 
