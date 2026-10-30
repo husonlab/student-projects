@@ -7,6 +7,7 @@ name = "magrix"
 version = "0.1.0"
 description = "Query large MAG x gene family matrices built by MAGrix without loading them into memory"
 readme = "README.md"
+authors = [{ name = "Jannik Kaufmann" }]
 requires-python = ">=3.9"
 dependencies = [
     "numpy",
