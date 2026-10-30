@@ -1,0 +1,38 @@
+# Rust build artifacts
+target/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Python packaging artifacts (pip install .)
+*.egg-info/
+build/
+dist/
+
+# Pipeline and benchmark output (regenerate with `magrix build` / the scripts)
+output/
+format_bench/
+sweep_work/
+*.container
+*.csr.*
+*.csc.*
+*.members.*
+mmseqs_long_*.tsv
+mag_dictionary.tsv
+family_dictionary.tsv
+*.h5
+*.zarr/
+*.sqlite
+
+# SLURM job logs in the repository folder
+/*.log
+
+# Figures are regenerated from the CSVs with results/plot_*.py
+results/*.pdf
+results/*.png
+
+# Input data (too large for git)
+datasets/
+clusters_*.tsv

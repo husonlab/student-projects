@@ -1,0 +1,11 @@
+[package]
+name = "magrix"
+version = "0.1.0"
+edition = "2021"
+description = "Out-of-core construction of large MAG x gene family matrices from MMseqs2 clustering output"
+
+# `magrix` (src/bin/magrix.rs) runs the whole pipeline; the stage programs
+# below are what it calls, and can also be run one by one.
+[[bin]]
+name = "pangenome_matrices"
+path = "src/main.rs"
