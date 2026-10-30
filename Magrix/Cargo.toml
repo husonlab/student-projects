@@ -2,6 +2,7 @@
 name = "magrix"
 version = "0.1.0"
 edition = "2021"
+authors = ["Jannik Kaufmann"]
 description = "Out-of-core construction of large MAG x gene family matrices from MMseqs2 clustering output"
 
 # `magrix` (src/bin/magrix.rs) runs the whole pipeline; the stage programs

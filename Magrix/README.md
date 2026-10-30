@@ -32,6 +32,7 @@ is in the page cache.
 - [Querying over HTTP](#querying-over-http)
 - [Reference](#reference): input format, output files, container format, configuration,
   tests, limits, repository layout
+- [Author](#author)
 
 ---
 
@@ -465,3 +466,8 @@ clusters.tsv             small test fixture
 test_real_data.py, bench_http.py, bench_formats.py   measurement scripts (see Tests)
 results/                 measured data as CSV, and the scripts that plot it
 ```
+
+## Author
+
+MAGrix was developed by Jannik Kaufmann as a Bachelor's thesis project in Bioinformatics at the
+University of Tübingen.

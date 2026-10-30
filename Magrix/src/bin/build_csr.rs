@@ -5,7 +5,8 @@
 // over the whole file. Building CSR therefore requires a sort-and-merge approach (external merge sort):
 // Step 1: read the input in bounded chunks ("runs") and sort each chunk in memory by (mag_id, family_id) and write to a temporary file
 // Step 2: merge the sorted runs into the output CSR representation, writing the indptr, indices, and data files in a single pass
-// Memory is bounded by the sort buffer of step 1 (entries_per_run x 10 bytes) plus one read buffer per run in step 2,
+// Memory is bounded by the sort buffer of step 1 (entries_per_run x 12 bytes in memory; 10 bytes per entry in the run files)
+// plus one read buffer per run in step 2,
 // never by the size of the input. Note: the step-1 buffer is not freed before step 2, so both add up.
 //
 // The resulting matrix is written as three binary files
